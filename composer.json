@@ -1,0 +1,6 @@
+{
+    "name": "drupal/hello_world",
+    "description": "This is an example module which display Hello World!",
+    "type": "drupal-module",
+    "license": "GPL-2.0+"
+}

@@ -1,0 +1,16 @@
+type: hello_world_mytype
+name: Example Hello World
+description: Use My Type content to get into Drupal 8 amazing stuff!
+help: ''
+new_revision: false
+display_submitted: true
+preview_mode: 1
+status: true
+langcode: en
+
+# without this content type will not be removed when module unistalled!
+# @see https://www.drupal.org/docs/8/api/entity-api/creating-a-custom-content-type-in-drupal-8
+dependencies:
+    enforced:
+        module:
+            - hello_world

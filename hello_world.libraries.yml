@@ -1,0 +1,4 @@
+hello:
+    css:
+        component:
+            css/hello_block.css: {}

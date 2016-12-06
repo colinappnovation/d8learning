@@ -25,6 +25,11 @@ class HelloBlock extends BlockBase implements BlockPluginInterface {
         return array (
             '#markup' => $this->t('Hello, World and @name!', 
                 array('@name' => $config['name'])),
+            '#attached' => array(
+                'library' => array(
+                    'hello_world/hello'
+                    )
+                )
         );
     }
 

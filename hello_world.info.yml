@@ -8,3 +8,5 @@ version: 8.x-1.0-beta1
 
 configure: hello_world.settings
 
+dependencies:
+    - block

@@ -1,5 +1,7 @@
 #About this module
 
+![build status](https://travis-ci.org/colinappnovation/d8learning.svg?branch=master)
+
 ##Introduction
 
 This module is a result of learning during the week of 6th Dec 2016

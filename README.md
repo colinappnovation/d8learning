@@ -18,6 +18,7 @@ This module is a result of learning during the week of 6th Dec 2016 on Drupal 8.
 - https://www.drupal.org/docs/8/api/entity-api/creating-a-custom-content-type-in-drupal-8
 - https://www.drupal.org/docs/8/api/configuration-api/configuration-schemametadata
 - https://www.drupal.org/node/2241059
+- https://www.chapterthree.com/blog/how-to-use-configuration-management
 
 ##PHPUnit
 

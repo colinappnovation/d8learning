@@ -31,7 +31,7 @@ install:
   # Download Drupal
   - cd ..
   - drush dl drupal-8 --drupal-project-rename=drupal
-  - mv hello_world drupal/modules
+  - mv d8learning drupal/modules/hello_world
   - cd drupal
 
   # Install drupal default profile

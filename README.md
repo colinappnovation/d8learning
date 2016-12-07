@@ -17,6 +17,7 @@ This module is a result of learning during the week of 6th Dec 2016 on Drupal 8.
 
 - https://www.drupal.org/docs/8/api/entity-api/creating-a-custom-content-type-in-drupal-8
 - https://www.drupal.org/docs/8/api/configuration-api/configuration-schemametadata
+- https://www.drupal.org/node/2241059
 
 ##PHPUnit
 
@@ -37,3 +38,17 @@ Tests PHP versions
 * 5.5
 * 5.6
 * 7.0
+
+##Configuration Management
+
+Really need to process an export of all settings first to /sync folder via below command.
+
+```
+drush cex
+```
+
+Then we can import changes from /sync when we make changes to yml file.
+
+```
+drush cim
+```

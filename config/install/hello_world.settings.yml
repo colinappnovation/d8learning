@@ -1,2 +1,1 @@
-hello:
-    name: 'Hank Williams'
+default_name: 'Hank Williams'

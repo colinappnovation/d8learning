@@ -64,7 +64,7 @@ class HelloBlock extends BlockBase implements BlockPluginInterface {
     public function defaultConfiguration() {
         $default_config = \Drupal::config('hello_world.settings');
         return array(
-            'name' => $default_config->get('hello.name')
+            'name' => $default_config->get('default_name')
         );
     }
 }

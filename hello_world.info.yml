@@ -4,9 +4,10 @@ package: Custom
 
 type: module
 core: 8.x
-version: 8.x-1.0-beta1
+version: 8.x-1.0-beta3
 
 configure: hello_world.settings
 
 dependencies:
     - block
+    - node

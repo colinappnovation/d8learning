@@ -1,0 +1,29 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - image.style.large
+    - image.style.medium
+    - image.style.thumbnail
+  theme:
+    - mytheme
+id: mytheme_responsive
+label: 'MyTheme Responsive Settings'
+image_style_mappings:
+  -
+    breakpoint_id: mytheme.wide
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: large
+  -
+    breakpoint_id: mytheme.narrow
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: medium
+  -
+    breakpoint_id: mytheme.mobile
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: thumbnail
+breakpoint_group: mytheme
+fallback_image_style: '_original image_'

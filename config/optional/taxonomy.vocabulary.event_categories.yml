@@ -1,0 +1,8 @@
+langcode: en
+status: true
+dependencies: {  }
+name: 'Event Categories'
+vid: event_categories
+description: 'Event Categories used by the Event Content Type exclusively'
+hierarchy: 0
+weight: 0

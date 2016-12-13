@@ -1,0 +1,99 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.event.body
+    - field.field.node.event.field_event_capacity
+    - field.field.node.event.field_event_categories
+    - field.field.node.event.field_event_date
+    - field.field.node.event.field_event_image
+    - field.field.node.event.field_event_name
+    - field.field.node.event.field_event_speakers
+    - field.field.node.event.field_event_website
+    - field.field.node.event.field_related_articles
+    - node.type.event
+    - responsive_image.styles.mytheme_responsive
+  module:
+    - datetime
+    - link
+    - responsive_image
+    - text
+    - user
+id: node.event.default
+targetEntityType: node
+bundle: event
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 3
+    settings: {  }
+    third_party_settings: {  }
+  field_event_capacity:
+    weight: 4
+    label: inline
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+  field_event_categories:
+    weight: 8
+    label: inline
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+  field_event_date:
+    weight: 1
+    label: above
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: datetime_default
+  field_event_image:
+    weight: 5
+    label: hidden
+    settings:
+      responsive_image_style: mytheme_responsive
+      image_link: ''
+    third_party_settings: {  }
+    type: responsive_image
+  field_event_name:
+    weight: 0
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+  field_event_speakers:
+    weight: 7
+    label: inline
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+  field_event_website:
+    weight: 6
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+  field_related_articles:
+    weight: 9
+    label: inline
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+  links:
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }
